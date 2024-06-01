@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "inter";
+  margin: 0;
+  padding: 0;
+}
+.row1 {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: #f5f5f5;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+}
+#innerdiv {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 20px;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  align-items: center;
+}
+.row1c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.row1c1 p{
+  font-size: 10px;
+}
+.row1c2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.row1c2 div{
+  /* border: 1px solid black; */
+  display:flex;
+  align-items: center;
+}
+.row1c2 p {
+  font-size: 10px;
+}
+.icon {
+  width: 14px;
+  height: 14px;
+}
+.icon1 {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+ul {
+  list-style-type: none;
+}
+
+.navig {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#hospImg {
+  height: 45px;
+}
+nav {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  font-size: 13px;
+}
+#home{
+  color:red;
+}
+
+#doctorImg {
+  /* border: 1px solid black; */
+  margin: 15px auto -90px auto;
+  padding: 0;
+  width: 90%;
+  height: 515px;
+  background-image: url("/assets/images/Group94.png");
+  background-size: 100%;
+  border-radius: 6px;
+}
+#inImg {
+  padding: 90px 25px 25px 70px;
+  width: 320px;
+}
+#inImg h1{
+  font-size: 38px;
+}
+#inImg p{
+  font-size: 14px;
+  line-height: 20px;
+}
+#bookrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+}
+#bookAppoBut {
+  color: white;
+  font-size: 12px;
+  background-color: #17c1a3;
+  border-radius: 6px;
+  
+  padding: 10px;
+  border-width: 0;
+}
+#bookrow img {
+  padding: 10px;
+  margin-left: 20px;
+  width: 20px;
+}
+#bookrow a {
+  font-size: 12px;
+}
+
+#form1 {
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 75%;
+  height: fit-content;
+  border-radius: 6px;
+  margin: auto;
+  padding: 5px 25px 25px 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#form1 h6 {
+  /* border: 1px solid black; */
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#formDiv {
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  font-size: 12px;
+}
+.formCont {
+  padding: 10px;
+  border-radius: 6px;
+  border:1px solid black;
+}
+#selDep {
+  opacity: 5%;
+}
+button {
+  background-color: #17c1a3;
+  color: white;
+}
+.button2 {
+  border-width: 0;
+  border-radius: 6px;
+}
+
+#depDiv {
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: 72px auto;
+}
+#depart {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.depaCard {
+  margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.depaCard p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.depImg {
+  width: 100%;
+}
+.depaCard h4 {
+  text-align: left;
+  margin: 15px 0;
+  padding: 0;
+}
+.depaCard p {
+  width: 80%;
+}
+.depaCard a {
+  font-size: 12px;
+  color: #17c1a3;
+}
+
+.h4arrow {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 93% 7%;
+  align-items: center;
+}
+.h4arrow h3{
+  font-weight:700;
+}
+
+/* .arrow button{
+  width: fit-content;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+} */
+
+.arrow {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  align-content: end;
+  /* border: 1px solid black; */
+}
+.arrow img {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  width: 42%;
+}
+.arrow1 {
+  opacity: 40%;
+}
+.arrow2 {
+  rotate: 180deg;
+}
+
+#ggDiv {
+  margin: 120px auto;
+  /* border: 1px solid black; */
+  width: 90%;
+  height: 458px;
+  background-color: #e8f9f6;
+  padding: 0;
+}
+#ggImg {
+  width: 50%;
+  height: 400px;
+}
+
+#ggImg2 {
+  width: 60%;
+  margin-top: -400px;
+}
+.why {
+  font-size: 13px;
+  margin: -35% 8% 7.5% 58%;
+  /* border: 1px solid black; */
+}
+.why h2 {
+  margin-left: 43px;
+  padding-left: 0;
+}
+.why li {
+  padding-top: 25px;
+  margin-left: 0;
+}
+.why img {
+  margin-bottom: -7px;
+  margin-left: 0;
+  width: 14px;
+  height: auto;
+  padding: 5px;
+}
+
+#docParent {
+  margin: 140px auto;
+  /* border: 1px solid black; */
+  width: 90%;
+  text-align: center;
+}
+#docParent p{
+  font-size: 12px;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+#docLis {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+}
+#docLis h4 {
+  margin: 5px;
+}
+#docLis p {
+  margin: 7px;
+  font-size: 11px;
+  opacity: 50%;
+}
+.docImg {
+  width: 100%;
+}
+.button3 {
+  margin-top:25px;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 10px 35px;
+}
+
+#fParent {
+  margin: 80px auto;
+  padding-top: 0;
+  /* border: 1px solid black; */
+  width: 90%;
+  text-align: center;
+}
+#fParent h3 {
+  padding-left: 100px;
+}
+#fLis {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.yParent {
+  margin: 100px auto;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin-bottom: -225px;
+}
+.yParent h3 {
+  padding-left: 100px;
+  text-align: center;
+}
+#yLis {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.yLisSub h4 {
+  text-align: left;
+}
+.yLisSub p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.yLisSub a {
+  color: #17c1a3;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.subParent {
+  width: 100%;
+  height: 270px;
+  margin: 0 auto;
+  padding-top: 325px;
+  background-color: #eaf2ff;
+  /* border: 1px solid black; */
+}
+.sub {
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.sub img {
+  height: 200px;
+  width: auto;
+}
+
+.h4button {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -145px;
+  align-items: center;
+}
+
+.sub input {
+  width: 250px;
+  border: 0;
+}
+.sub button {
+  /* margin-left: -75px; */
+  margin-bottom: -4px;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 10px 25px;
+  font-size: 12px;
+}
+footer {
+  height: fit-content;
+  padding: 70px 10% 20px 10%;
+}
+.footr1 {
+  /* border: 1px solid black; */
+  /* padding: ; */
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.r1c1 {
+  /* border: 1px solid black; */
+  width: 30%;
+  height: fit-content;
+  margin: 10px 20% 20px 0px;
+}
+
+.r1c1 img {
+  width: 150px;
+  height: auto;
+}
+
+.r1c1 p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.righttd {
+  padding-left: 35px;
+}
+td {
+  padding: 5px 0;
+}
+td a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.r1c2 {
+  margin: 5px 10px;
+}
+
+.footr1 h6 {
+  margin: 7px 0;
+}
+.r1c3 {
+  margin: 5px 10px;
+  /* border: 1px solid black; */
+}
+.footr2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+}
+.div3 {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 4px;
+}
+.div3c {
+  display: flex;
+  gap: 5px;
+}
+.div3c p {
+  font-size: 10px;
+}
+.div3c img {
+  margin-top: 12px;
+  padding: 0;
+  height: 12px;
+  width: auto;
+}
+.div1 div {
+  margin-right: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.div1 h6 {
+  padding: 10px 0;
+  margin: 0;
+}
+.div1 img {
+  width: 15px;
+}
+
+.copyRight {
+  font-size: 10px;
+  text-align: center;
+  opacity: 50%;
+  margin: 40px 0 0 0;
+  padding:0;
+}
